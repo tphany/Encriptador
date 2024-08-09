@@ -105,6 +105,14 @@ body{
 
 }
 
+.mensaje{
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    padding: 10px 0 0 0;
+    overflow: auto;
+}
 
 .presentacion__imagen{
     width: 600px;

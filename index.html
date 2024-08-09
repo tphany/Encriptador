@@ -9,26 +9,29 @@
 
 <body>
     <main class="presentacion">
-    <section class="presentacion__web">
+        <section class="presentacion__web">
 
-    <textarea id="presentacion__web__texto" placeholder="Ingrese el texto aquí"></textarea>
-    <div class="letra__pequeña"><img class="letra__pequeña__icono" src="assets/Vector.png">
-    <a class="letra__pequeña__texto">Solo letras minúsculas y sin acentos</a></div>
+            <textarea id="presentacion__web__texto" cols="20" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="letra__pequeña">
+                <img class="letra__pequeña__icono" src="assets/Vector.png">
+                <a class="letra__pequeña__texto">Solo letras minúsculas y sin acentos</a>
+            </div>
 
-    <div class="presentacion__cifrado">
-    <button onclick="myFunction()" id="presentacion__cifrado__encriptar">Encriptar</button>
-    <button id="presentacion__cifrado__desencriptar">Desencriptar</button>
-    
-</div>
-</section>
+            <div class="presentacion__cifrado">
+                <button id="presentacion__cifrado__encriptar">Encriptar</button>
+                <button id="presentacion__cifrado__desencriptar">Desencriptar</button>
+            </div>
+        </section>
 
-    <section class="presentacion__imagen">
-    <img class="presentacion__imagen__hombre"  src="assets/Muñeco.png" alt="hombre sentado con una lupa">
-    <p class="presentacion__imagen__texto">Ningún mensaje fue<br> encontrado</br></p>
-    <p class="presentacion__imagen__texto__dos">Ingresa el texto que desees <br>encriptar o desencriptar.</br> </p>
-    </section>
+        <section class="presentacion__imagen">
+            <textarea class="mensaje"></textarea>
+            <img class="presentacion__imagen__hombre" src="assets/Muñeco.png" alt="hombre sentado con una lupa">
+            <p class="presentacion__imagen__texto">Ningún mensaje fue<br> encontrado</br></p>
+            <p class="presentacion__imagen__texto__dos">Ingresa el texto que desees <br>encriptar o desencriptar.</br> </p>
+        </section>
     </main>
-</script>
+
+    <script src="script.js"></script>
 </body>
 <footer class="body__footer">Realizado por Stephany Castillo 2024</footer>
 </html>
