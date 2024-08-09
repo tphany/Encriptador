@@ -58,20 +58,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
         mensaje.value = textoDesencriptado;
     }
 
-    // Copiar el texto encriptado al portapapeles
+    // Copiado de texto encriptado 
     function copiarTexto() {
         mensaje.select();
         document.execCommand('copy');
         alert("Texto copiado al portapapeles");
     }
 
-    // Escuchar el evento de clic en el botón Encriptar
+    // Evento de clic en botón Encriptar
     botonEncriptar.addEventListener('click', mostrarTextoEncriptado);
 
-    // Escuchar el evento de clic en el botón Desencriptar
     botonDesencriptar.addEventListener('click', mostrarTextoDesencriptado);
 
-    // Escuchar el evento de clic en el botón Copiar
     botonCopiar.addEventListener('click', copiarTexto);
 
 });
