@@ -116,7 +116,7 @@ body{
 
 .mensaje{
     border: var(--color-texto);
-    border-radius: ;
+    border-radius: 8px;
     width: 400px;
     height: 200px;
     font-family: var(--fuente-inter);
@@ -178,8 +178,8 @@ body{
     font-family: var(--fuente-inter);
     font-size: 1rem;
     font-weight: 300;
-    padding: 0; /
-    color: var(--color-secundario);
+    padding: 0;
+    color:var(--color-secundario);
     border: 2px solid  var(--color-secundario);
 
 }
