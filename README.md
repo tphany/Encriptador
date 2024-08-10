@@ -14,6 +14,8 @@ En el cuadro de texto puedes escribir una palabra o frase que se encriptará seg
 
     También, si quieres desencriptar el texto puedes hacerlo directamente. Y además, puedes copiar el texto directo a tu portapapeles.
 
+    Y para finalizar, está adaptado para ser responsivo en tablets y en telefonos.
+
 
     Realizado por Stephany Castillo 2024.
     https://github.com/tphany
