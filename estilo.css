@@ -201,7 +201,7 @@ body{
     margin: 0;
 }
 
-
+/* Responsivo para tablet */
 @media (max-width: 768px) {
     .presentacion {
         flex-direction: column;
@@ -216,7 +216,7 @@ body{
 
     #presentacion__web__texto {
         width: 100%;
-        overflow: auto;
+        height: auto;
         font-size: 24px;
     }
 
@@ -256,5 +256,63 @@ body{
     #copiar__mensaje {
         width: 100%;
         font-size: 0.875rem;
+    }
+}
+
+/* Responsivo para telefono */
+@media (max-width: 480px) {
+    .presentacion {
+        flex-direction: column;
+        padding: 5% 2%;
+        gap: 10px;
+    }
+
+    .presentacion__web {
+        padding: 0px;
+        gap: 5px;
+    }
+
+    #presentacion__web__texto {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+    }
+
+    .presentacion__cifrado {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #presentacion__cifrado__encriptar,
+    #presentacion__cifrado__desencriptar {
+        width: 100%;
+        font-size: 0.75rem;
+    }
+
+    .mensaje {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+    }
+
+    .presentacion__imagen {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .presentacion__imagen__hombre {
+        width: 100%;
+        height: auto;
+    }
+
+    .presentacion__imagen__texto,
+    .presentacion__imagen__texto__dos {
+        font-size: 1rem;
+    }
+
+    #copiar__mensaje {
+        width: 100%;
+        font-size: 0.75rem;
     }
 }
