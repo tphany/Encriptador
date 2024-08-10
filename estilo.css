@@ -201,3 +201,60 @@ body{
     margin: 0;
 }
 
+
+@media (max-width: 768px) {
+    .presentacion {
+        flex-direction: column;
+        padding: 5% 5%;
+        gap: 20px;
+    }
+
+    .presentacion__web {
+        padding: 0px;
+        gap: 10px;
+    }
+
+    #presentacion__web__texto {
+        width: 100%;
+        overflow: auto;
+        font-size: 24px;
+    }
+
+    .presentacion__cifrado {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #presentacion__cifrado__encriptar,
+    #presentacion__cifrado__desencriptar {
+        width: 100%;
+        font-size: 0.875rem;
+    }
+
+    .mensaje {
+        width: 100%;
+        height: auto;
+        font-size: 24px;
+    }
+
+    .presentacion__imagen {
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+    }
+
+    .presentacion__imagen__hombre {
+        width: 100%;
+        height: auto;
+    }
+
+    .presentacion__imagen__texto,
+    .presentacion__imagen__texto__dos {
+        font-size: 1.2rem;
+    }
+
+    #copiar__mensaje {
+        width: 100%;
+        font-size: 0.875rem;
+    }
+}
